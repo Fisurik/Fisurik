@@ -1,0 +1,38 @@
+.header {
+    padding:  15px 0;
+    background-color: #222222;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+    &__search {
+        position: relative;
+        &-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-45%);
+            left: 8px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        &-field{
+            width: 230px;
+            height: 32px;
+            background-color: #424242;
+            border-radius: 8px;
+            padding: 0 12px 0 34px;
+        }
+
+    }
+
+}
